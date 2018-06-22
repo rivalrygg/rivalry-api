@@ -14,7 +14,6 @@ id | int | Identifier
 name | string | Game name
 matches | array of [match objects](../Objects.md#match) | Full match objects
 
-
 ### Example:
 
 ```json
@@ -25,7 +24,7 @@ matches | array of [match objects](../Objects.md#match) | Full match objects
 		"matches":  [
 			{
 				"id": 294,
-				"url": "https://rivalry.dev/match/counter-strike/ecs-league/243-nrg-esports-vs-g-2-esports",
+				"url": "https://rivalry.gg/match/counter-strike/ecs-league/243-nrg-esports-vs-g-2-esports",
 				"scheduled_at": "2018-06-09T18:00:00Z",
 				"competitors": [
 					{

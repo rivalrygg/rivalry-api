@@ -19,6 +19,7 @@ KEY | Value type | Value description
 id | int | Identifier
 url | string | Rivalry.gg match URL
 scheduled_at | Timestamp | Match start time
+?tournament | [tournament object](#tournament) \| null | Match related tournament
 ?competitors | array of [competitor objects](#competitor) | Competitors playing in the match
 ?markets | array of [market objects](#market) | Open markets for the match
 
@@ -44,3 +45,12 @@ KEY | Value type | Value description
 id | int | Identifier
 odds | float | Outcome odds
 ?competitor | [competitor object](#competitor) \| null | Outcome related competitor
+
+## Tournament
+
+KEY | Value type | Value description
+--- | --- | ---
+id | int | Identifier
+name | string | Tournament name
+?game | [game object](#game) \| null | Tournament game
+?matches | array of [match objects](#match) | Tournament matches

@@ -6,6 +6,10 @@ Method | Endpoint | Usage | Returns
 --- | --- | --- | ---
 GET | [`/v1/games`](Games/Index.md) | Get several games | games
 GET | [`/v1/games/{id}`](Games/Show.md) | Get a game | game
+GET | [`/v1/matches`](Matches/Index.md) | Get several matches | matches
+GET | [`/v1/matches/{id}`](Matches/Show.md) | Get a match | match
+GET | [`/v1/tournaments`](Tournaments/Index.md) | Get several tournaments | tournaments
+GET | [`/v1/tournaments/{id}`](Tournaments/Show.md) | Get a tournament | tournament
 
 ## Requests
 
