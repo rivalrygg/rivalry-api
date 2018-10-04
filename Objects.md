@@ -54,3 +54,16 @@ id | int | Identifier
 name | string | Tournament name
 ?game | [game object](#game) \| null | Tournament game
 ?matches | array of [match objects](#match) | Tournament matches
+
+## Affiliate report
+
+KEY | Value type | Value description
+--- | --- | ---
+start_date | string | Report period start
+end_date | string | Report period end
+num_users_joined | int | Number of users joined in the selected period
+num_users_deposited | string | Number of users deposited in the selected period
+amount_deposited | int (USD cents) | Amount deposited in the selected period
+amount_wagered | int (USD cents) | Amount wagered in the selected period
+ggr_revenue | int (USD cents) | Gross gambling revenue
+net_revenue | int (USD cents) | Net affiliate revenue

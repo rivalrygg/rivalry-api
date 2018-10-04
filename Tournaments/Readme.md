@@ -1,4 +1,4 @@
-# Matches
+# Tournaments
 Endpoints for retrieving information about one or more tournaments from Rivalry.gg
 
 Base URL: `https://www.rivalry.gg/api`
