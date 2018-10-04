@@ -4,6 +4,15 @@
 
 `GET https://www.rivalry.gg/api/v1/affiliates/stats`
 
+## Query parameters:
+
+Both date parameters are required
+
+KEY | Value | Value description
+--- | --- | ---
+start_date | date (YYYY-MM-DD) | Report period start
+end_date | date (YYYY-MM-DD) | Report period end
+
 ## Response format
 
 On success, the HTTP status code in the response header is `200` and the response contains the `JSON` data containing affiliate report for a selected time period.
