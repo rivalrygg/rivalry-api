@@ -16,3 +16,4 @@ Base URL: `https://www.rivalry.gg/api`
 Method | Endpoint | Usage | Returns
 --- | --- | --- | ---
 GET | [`/v1/affiliates/stats`](Stats.md) | Get affiliate report | [affiliate report](../Objects.md#affiliate-report)
+GET | [`/v1/affiliates/codes`](Codes.md) | Get affiliate's subcodes | [affiliate subcodes](../Objects.md#affiliate-subcode)

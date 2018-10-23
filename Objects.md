@@ -1,6 +1,6 @@
 # Objects
 
-A full list of the objects returned by the endpoints of the Rivalry.gg API.
+A full list of the objects returned by the endpoints of the [Rivalry.gg](https://www.rivalry.gg/) API.
 
 A key starting with `?` represents data that is not included in all endpoints. For reference what the endpoints include see [available endpoints](../).
 
@@ -67,3 +67,11 @@ amount_deposited | int (USD cents) | Amount deposited in the selected period
 amount_wagered | int (USD cents) | Amount wagered in the selected period
 ggr_revenue | int (USD cents) | Gross gambling revenue
 net_revenue | int (USD cents) | Net affiliate revenue
+?subcode_id | int | Subcode identifier (only when showing statistics for a specific subcode)
+
+## Affiliate subcode
+
+KEY | Value type | Value description
+--- | --- | ---
+id | int | Identifier
+code | string | Code

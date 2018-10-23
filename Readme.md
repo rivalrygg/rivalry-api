@@ -1,4 +1,4 @@
-# Rivalry.gg API
+# [Rivalry.gg](https://www.rivalry.gg/) API
 
 ## Available endpoints
 
@@ -10,14 +10,16 @@ GET | [`/v1/matches`](Matches/Index.md) | Get several matches | matches
 GET | [`/v1/matches/{id}`](Matches/Show.md) | Get a match | match
 GET | [`/v1/tournaments`](Tournaments/Index.md) | Get several tournaments | tournaments
 GET | [`/v1/tournaments/{id}`](Tournaments/Show.md) | Get a tournament | tournament
+GET | [`/v1/affiliates/stats`](Affiliates/Stats.md) | Get affiliate's report | affiliate report
+GET | [`/v1/affiliates/codes`](Affiliates/Codes.md) | Get affiliate's subcodes | affiliate subcodes
 
 ## Requests
 
-The Rivalry.gg API is based on REST principles. Data resources are retrieved via standard HTTPS GET requests in UTF-8 format to an API endpoint.
+The [Rivalry.gg](https://www.rivalry.gg/) API is based on REST principles. Data resources are retrieved via standard HTTPS GET requests in UTF-8 format to an API endpoint.
 
 ## Responses
 
-Rivalry.gg API returns all successful response data as a JSON object with HTTP status code `200`.
+[Rivalry.gg](https://www.rivalry.gg/) API returns all successful response data as a JSON object with HTTP status code `200`.
 
 The requested data is always wrapped in a `data` field:
 
