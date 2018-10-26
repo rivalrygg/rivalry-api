@@ -12,10 +12,10 @@ KEY | Value | Value description
 --- | --- | ---
 start_date | date (YYYY-MM-DD) | Report period start
 end_date | date (YYYY-MM-DD) | Report period end
-subcode_id | int | Subcode identifier
+code | string | Code
 
 **Warning**
-When no `subcode_id` is provided, the report will return cumulative results for all users registered with any or no subcodes. However, when `subcode_id` is provided, the returned report will include only results for users registered with that subcode.
+When no `code` is provided, the report will return cumulative results for all users registered with any or no subcodes. However, when `code` is provided, the returned report will include only results for users registered with that subcode.
 
 ## Response format
 
@@ -32,7 +32,7 @@ amount_deposited | int (USD cents) | Amount deposited in the selected period
 amount_wagered | int (USD cents) | Amount wagered in the selected period
 ggr_revenue | int (USD cents) | Gross gambling revenue
 net_revenue | int (USD cents) | Net affiliate revenue
-?subcode_id | int | Subcode identifier (only when showing statistics for a specific subcode)
+?code | string | Code (only when showing statistics for a specific subcode)
 
 ### Example:
 
@@ -47,7 +47,7 @@ net_revenue | int (USD cents) | Net affiliate revenue
 		"amount_wagered": 0,
 		"ggr_revenue": 495700,
 		"net_revenue": 99140,
-		"subcode_id": null
+		"code": null
 	}
 }
 ```
