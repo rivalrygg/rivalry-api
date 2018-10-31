@@ -18,7 +18,6 @@ code | string | Code
 ```json
 {
 	"data": {
-		"id": 1,
 		"code": "GreenPanda"
 	}
 }
