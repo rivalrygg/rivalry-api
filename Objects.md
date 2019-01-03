@@ -37,6 +37,7 @@ KEY | Value type | Value description
 id | int | Identifier
 name | string \| null | Market name
 ?outcomes | array of [outcome objects](#outcome) | Market outcomes
+* Market name with integers should be read as ordinal numbers. (1 = 1st, 2 = 2nd and etc)
 
 ## Outcome
 
