@@ -35,7 +35,7 @@ name | string | Competitor name
 KEY | Value type | Value description
 --- | --- | ---
 id | int | Identifier
-name | string \| null | Market name
+name | string | Market name (integers should be read as ordinal numbers, 1 = 1st)
 ?outcomes | array of [outcome objects](#outcome) | Market outcomes
 
 ## Outcome
