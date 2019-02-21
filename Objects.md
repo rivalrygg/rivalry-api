@@ -1,6 +1,6 @@
 # Objects
 
-A full list of the objects returned by the endpoints of the [Rivalry.gg](https://www.rivalry.gg/) API.
+A full list of the objects returned by the endpoints of the [Rivalry.com](https://www.rivalry.com/) API.
 
 A key starting with `?` represents data that is not included in all endpoints. For reference what the endpoints include see [available endpoints](../).
 
@@ -17,7 +17,7 @@ name | string | Game name
 KEY | Value type | Value description
 --- | --- | ---
 id | int | Identifier
-url | string | Rivalry.gg match URL
+url | string | Rivalry.com match URL
 scheduled_at | Timestamp | Match start time
 ?tournament | [tournament object](#tournament) \| null | Match related tournament
 ?competitors | array of [competitor objects](#competitor) | Competitors playing in the match

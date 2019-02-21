@@ -2,7 +2,7 @@
 
 ## Endpoint
 
-`GET https://www.rivalry.gg/api/v1/tournaments/{id}`
+`GET https://www.rivalry.com/api/v1/tournaments/{id}`
 
 ## Response format
 
@@ -29,7 +29,7 @@ matches | array of [match objects](../Objects.md#match) | Full match objects
     "matches": [
       {
         "id": 482,
-        "url": "https://rivalry.gg/match/league-of-legends/lcs-na/482-clutch-gaming-vs-echo-fox",
+        "url": "https://rivalry.com/match/league-of-legends/lcs-na/482-clutch-gaming-vs-echo-fox",
         "scheduled_at": "2018-06-17T21:25:00Z",
         "competitors": [
           {

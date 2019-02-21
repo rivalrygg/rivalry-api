@@ -2,7 +2,7 @@
 
 ## Endpoint
 
-`GET https://www.rivalry.gg/api/v1/affiliates/stats`
+`GET https://www.rivalry.com/api/v1/affiliates/stats`
 
 ## Query parameters:
 

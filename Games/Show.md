@@ -2,7 +2,7 @@
 
 ## Endpoint
 
-`GET https://www.rivalry.gg/api/v1/games/{id}`
+`GET https://www.rivalry.com/api/v1/games/{id}`
 
 ## Response format
 
@@ -24,7 +24,7 @@ matches | array of [match objects](../Objects.md#match) | Full match objects
 		"matches":  [
 			{
 				"id": 294,
-				"url": "https://rivalry.gg/match/counter-strike/ecs-league/243-nrg-esports-vs-g-2-esports",
+				"url": "https://rivalry.com/match/counter-strike/ecs-league/243-nrg-esports-vs-g-2-esports",
 				"scheduled_at": "2018-06-09T18:00:00Z",
 				"competitors": [
 					{

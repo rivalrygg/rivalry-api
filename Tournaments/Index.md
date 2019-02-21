@@ -2,7 +2,7 @@
 
 ## Endpoint
 
-`GET https://www.rivalry.gg/api/v1/tournaments`
+`GET https://www.rivalry.com/api/v1/tournaments`
 
 ## Response format
 
@@ -29,8 +29,8 @@ game_id | [game object](../Objects.md#game) id | Scope returned tournaments to a
     }
   ],
   "links": {
-    "first": "https://rivalry.gg/api/v1/tournaments?page=1",
-    "last": "https://rivalry.gg/api/v1/tournaments?page=1",
+    "first": "https://rivalry.com/api/v1/tournaments?page=1",
+    "last": "https://rivalry.com/api/v1/tournaments?page=1",
     "prev": null,
     "next": null
   },
@@ -38,7 +38,7 @@ game_id | [game object](../Objects.md#game) id | Scope returned tournaments to a
     "current_page": 1,
     "from": 1,
     "last_page": 1,
-    "path": "https://rivalry.gg/api/v1/tournaments",
+    "path": "https://rivalry.com/api/v1/tournaments",
     "per_page": 15,
     "to": 15,
     "total": 1
