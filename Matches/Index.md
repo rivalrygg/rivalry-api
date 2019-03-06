@@ -2,7 +2,7 @@
 
 ## Endpoint
 
-`GET https://www.rivalry.gg/api/v1/matches`
+`GET https://www.rivalry.com/api/v1/matches`
 
 ## Response format
 
@@ -22,7 +22,7 @@ tournament_id | [tournament object](../Objects.md#tournament) id | Scope returne
   "data": [
     {
       "id": 399,
-      "url": "https://rivalry.gg/match/league-of-legends/lcs-eu/399-unicorns-of-love-vs-misfits",
+      "url": "https://rivalry.com/match/league-of-legends/lcs-eu/399-unicorns-of-love-vs-misfits",
       "scheduled_at": "2018-06-16T16:00:00Z",
       "game": {
   	    "id": 24,
@@ -69,16 +69,16 @@ tournament_id | [tournament object](../Objects.md#tournament) id | Scope returne
     }
   ],
   "links": {
-    "first": "https://rivalry.gg/api/v1/matches?page=1",
-    "last": "https://rivalry.gg/api/v1/matches?page=3",
+    "first": "https://rivalry.com/api/v1/matches?page=1",
+    "last": "https://rivalry.com/api/v1/matches?page=3",
     "prev": null,
-    "next": "https://rivalry.gg/api/v1/matches?page=2"
+    "next": "https://rivalry.com/api/v1/matches?page=2"
   },
   "meta": {
     "current_page": 1,
     "from": 1,
     "last_page": 3,
-    "path": "https://rivalry.gg/api/v1/matches",
+    "path": "https://rivalry.com/api/v1/matches",
     "per_page": 15,
     "to": 15,
     "total": 37

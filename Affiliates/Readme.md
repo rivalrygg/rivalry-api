@@ -11,7 +11,7 @@ API key can be obtained on affiliate tab of your profile.
 
 Endpoints for retrieving affiliate information
 
-Base URL: `https://www.rivalry.gg/api`
+Base URL: `https://www.rivalry.com/api`
 
 Method | Endpoint | Usage | Returns
 --- | --- | --- | ---

@@ -2,7 +2,7 @@
 
 ## Endpoint
 
-`GET https://www.rivalry.gg/api/v1/games`
+`GET https://www.rivalry.com/api/v1/games`
 
 ## Response format
 
@@ -43,8 +43,8 @@ On success, the HTTP status code in the response header is `200` and the respons
 		}
 	],
 	"links": {
-		"first": "https://rivalry.gg/api/v1/games?page=1",
-		"last": "https://rivalry.gg/api/v1/games?page=1",
+		"first": "https://rivalry.com/api/v1/games?page=1",
+		"last": "https://rivalry.com/api/v1/games?page=1",
 		"prev": null,
 		"next": null
 	},
@@ -52,7 +52,7 @@ On success, the HTTP status code in the response header is `200` and the respons
 		"current_page": 1,
 		"from": 1,
 		"last_page": 1,
-		"path": "https://rivalry.gg/api/v1/games",
+		"path": "https://rivalry.com/api/v1/games",
 		"per_page": 15,
 		"to": 7,
 		"total": 7

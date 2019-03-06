@@ -2,7 +2,7 @@
 
 ## Endpoint
 
-`GET https://www.rivalry.gg/api/v1/matches/{id}`
+`GET https://www.rivalry.com/api/v1/matches/{id}`
 
 ## Response format
 
@@ -25,7 +25,7 @@ game | [game object](../Objects.md#game) | Game object
 {
   "data": {
     "id": 366,
-    "url": "https://rivalry.gg/match/league-of-legends/lpl/366-funplus-phoenix-vs-snake-esports",
+    "url": "https://rivalry.com/match/league-of-legends/lpl/366-funplus-phoenix-vs-snake-esports",
     "scheduled_at": "2018-06-15T11:00:00Z",
   	"game": {
   		"id": 24,
