@@ -17,6 +17,8 @@ GET | [`/v1/affiliates/codes`](Affiliates/Codes.md) | Get affiliate's subcodes |
 
 The [Rivalry.com](https://www.rivalry.com/) API is based on REST principles. Data resources are retrieved via standard HTTPS GET requests in UTF-8 format to an API endpoint.
 
+**The API rate limit is currently 60 requests/minute.**
+
 ## Responses
 
 [Rivalry.com](https://www.rivalry.com/) API returns all successful response data as a JSON object with HTTP status code `200`.
