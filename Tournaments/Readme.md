@@ -1,7 +1,7 @@
 # Tournaments
-Endpoints for retrieving information about one or more tournaments from [Rivalry.com](https://www.rivalry.com/)
+Endpoints for retrieving information about one or more tournaments from [Rivalry.com](https://api.rivalry.com/)
 
-Base URL: `https://www.rivalry.com/api`
+Base URL: `https://api.rivalry.com/api`
 
 Method | Endpoint | Usage | Returns
 --- | --- | --- | ---

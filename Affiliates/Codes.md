@@ -2,7 +2,7 @@
 
 ## Endpoint
 
-`GET https://www.rivalry.com/api/v1/affiliates/codes`
+`GET https://api.rivalry.com/api/v1/affiliates/codes`
 
 ## Response format
 

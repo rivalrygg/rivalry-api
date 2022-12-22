@@ -2,7 +2,7 @@
 
 ## Endpoint
 
-`GET https://www.rivalry.com/api/v1/tournaments`
+`GET https://api.rivalry.com/api/v1/tournaments`
 
 ## Response format
 
