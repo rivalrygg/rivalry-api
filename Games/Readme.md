@@ -1,7 +1,7 @@
 # Games
 Endpoints for retrieving information about one or more games from Rivalry.com
 
-Base URL: `https://www.rivalry.com/api`
+Base URL: `https://api.rivalry.com/api`
 
 Method | Endpoint | Usage | Returns
 --- | --- | --- | ---

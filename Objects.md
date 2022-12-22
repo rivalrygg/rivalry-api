@@ -1,6 +1,6 @@
 # Objects
 
-A full list of the objects returned by the endpoints of the [Rivalry.com](https://www.rivalry.com/) API.
+A full list of the objects returned by the endpoints of the [Rivalry.com](https://api.rivalry.com/) API.
 
 A key starting with `?` represents data that is not included in all endpoints. For reference what the endpoints include see [available endpoints](../).
 
